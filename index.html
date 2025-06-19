@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Luyện phản xạ dạng động từ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Chọn dạng đúng của động từ phía sau</h2>
+      <p>Động từ trước: <strong id="mainVerb"></strong></p>
+
+      <div id="options">
+        <button onclick="selectOption(this)">to V</button>
+        <button onclick="selectOption(this)">V-ing</button>
+        <button onclick="selectOption(this)">Vo</button>
+      </div>
+
+      <p id="result"></p>
+      <button onclick="nextQuestion()">Câu tiếp</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
